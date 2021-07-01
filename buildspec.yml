@@ -22,9 +22,9 @@ phases:
       #- npm install
       - npm run build
       # - command
-  post_build:
-    commands:
-      - npm run start 
+  #post_build:
+    #commands:
+      
 artifacts:
   files:
     - '**/*'
