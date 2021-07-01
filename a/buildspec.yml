@@ -8,17 +8,18 @@ version: 0.2
      # key: "value"
 
 phases:
-  install:
-    commands:
-      # - command
-      - npm install
-  #pre_build:
+  #install:
     #commands:
+      # - command
+      
+  pre_build:
+    commands:
+      - npm install
       # - command
       # - command
   build:
     commands:
-      - npm install
+      #- npm install
       - npm run build
       # - command
   #post_build:
