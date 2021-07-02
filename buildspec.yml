@@ -12,14 +12,14 @@ phases:
     #commands:
       # - command
       
-  pre_build:
-    commands:
-      - npm install
+  #pre_build:
+    #commands:
+      #- npm install
       # - command
       # - command
   build:
     commands:
-      #- npm install
+      - npm install
       - npm run build
       # - command
   #post_build:
